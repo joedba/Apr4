@@ -1,0 +1,6 @@
+I created a version of pong that has more than one ball in play.  
+I was originally trying to do it using extra view controllers to create a hierarchy like the one you described in class. 
+But then I realized that it I should be using subviews for that.  I was also trying to get a sound effect 
+but I wasn't successful.  That code is commented out in a couple of places where I was trying it - in the ap delegate and the
+view controller.  I wanted to have a sound effect when you missed the ball.  My goal was to create a version of this 
+that would add another ball with a different dx and dy each time you miss, making the game get harder each time you miss.
